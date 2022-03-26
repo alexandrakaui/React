@@ -129,7 +129,7 @@ class Contact extends Component {
                                                 maxLength: maxLength(15)
                                             }}
                                         />
-                                        <Errors
+                                        <errors
                                             className="text-danger"
                                             model=".firstName"
                                             show="touched"
@@ -153,9 +153,10 @@ class Contact extends Component {
                                             minLength: minLength(10),
                                             maxLength: maxLength(15),
                                             isNumber
+                        
                                         }}
                                     />
-                                    <Errors
+                                    <errors
                                         className="text-danger"
                                         model=".phoneNum"
                                         show="touched"
@@ -180,7 +181,7 @@ class Contact extends Component {
                                             validEmail
                                         }}
                                     />
-                                    <Errors
+                                    <errors
                                         className="text-danger"
                                         model=".email"
                                         show="touched"
